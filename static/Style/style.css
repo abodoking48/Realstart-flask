@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F5F5F5;
+    width: 1520px;
+    height: 4000px;
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.col-1-4 {
+  width: calc(100%/4);
+}
+
+header .background {
+    width: 1520px;
+    height: 580px;
+    position: relative;
+}
+
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 540px;
+    top: 240px;
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 600;
+}
+header p {
+    font-family: 'Inter', sans-serif;
+    color: #EDEFF6;
+    font-style: normal;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    left: 480px;
+    top: 320px;
+    width: 600px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+header .logo-nav {
+    position: absolute;
+    top: 26px;
+    left: 120px;
+    width: 100px;
+
+}
+header .navbar {
+    position: absolute;
+    right: 200px;
+    top: 32px;
+}
+header .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+header .navbar ul a {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+header .navbar ul a:hover {
+    color: #4b4949;
+}
+header .btn {
+    position: absolute;
+    right: 100px;
+    top: 26px;
+    color: #FFFFFF;
+    border: 1px solid #EDEFF6;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+
+}
+
+header .btn:hover {
+    color: yellow;
+    background-color: #4b4949;
+}
+
+header .Search {
+    width: 1000px;
+    height: 100px;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    box-shadow: 2px 2px 81px rgba(0, 0, 0, 0.25);;
+}
+header .Search form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header .Search form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+header .Search form .form-group  label {
+    color: #2C3A61;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+header .Search form .form-group select {
+    border: none;
+    width: 150px;
+    height: 24px;
+}
+header .Search form span {
+    background-color: #CFD3D6;
+    width: 1px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+header .Search form button {
+    padding: 12px 24px;
+    margin-top: 15px;
+    margin-right: 20px;
+    background-color: #4A60A1;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ***** Featured ***** */
+#Featured {
+    width: 1520px;
+    height: 780px;
+    background-color: #FFFFFF;
+    
+}
+#Featured .container {
+  padding: 8rem;
+}
+#Featured .container .Featured-title {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+#Featured .container h2 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  line-height: 48px;
+}
+#Featured .container p {
+ text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  color: #889099;
+  line-height: 22px;
+
+}
+
+#Featured .container .row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.rowfeatured::-webkit-scrollbar {
+  display: none;
+}
+
+#Featured .container .row .col-1-4 .img-card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  border-radius: 2px;
+  flex-direction: row;
+  
+}
+
+#Featured .container .row .col-1-4 .img-card img {
+  width: 280px;
+  height: 350px;
+  
+}
+
+#Featured .container .row .col-1-4 .hot {
+  position: absolute;
+  left: 1.40rem;
+  top: 1.40rem;
+  background-color: #4A60A1;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+#Featured .container .row .col-1-4 a {
+  position: absolute;
+  left: 22%;
+  top: 40%;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+#Featured .container .row .col-1-4 a:hover {
+  background-color: rgba(255, 255, 255, 0.155);
+} 
+#Featured .container .row .col-1-4 .img-card .Location {
+  position: absolute;
+  left: 7%;
+  bottom: 16%;
+  display: flex;
+  align-items: center;
+  background-color: #4a60a17a;
+  padding: 3px 5px;
+  border-radius: 8px;
+  gap: 1px;
+  text-align: center;
+}
+#Featured .container .row .col-1-4 .img-card .Location img {
+  /* position: absolute; */
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #fff;
+  
+}
+#Featured .container .row .col-1-4 .img-card .Location span {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+#Featured .container .row .col-1-4 .img-card .area {
+  position: absolute;
+  right: 14%;
+  bottom: 16%;
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(255, 0, 0, 0.078); */
+  background-color: #4a60a17a;
+  padding: 5px 7px;
+  border-radius: 8px;
+}
+
+#Featured .container .row .col-1-4 .img-card .area img {
+  
+  width: 1.3rem;
+  height: 1.3rem;
+}
+#Featured .container .row .col-1-4 .img-card .area span {
+  color: #FFFFFF;
+}
+
+#Featured .container .btn-Featured {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#Featured .container .btn-Featured button {
+  background-color: #4A60A1;
+  border: none;
+  outline: none;
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#Featured .container .btn-Featured img {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#Featured .container .btn-Featured button:hover {
+  background-color: #6379bd;
+}

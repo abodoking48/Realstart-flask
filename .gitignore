@@ -1,0 +1,5 @@
+/flask_session
+/.gitignore
+/other
+/__pycache__
+/env
